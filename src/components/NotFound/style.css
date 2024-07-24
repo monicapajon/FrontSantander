@@ -1,0 +1,27 @@
+.not-found{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin: 5rem
+}
+.not-found .error{
+       font-size: 150px;
+        color: #A73121;
+        text-shadow: 
+          1px 1px 1px #A73121,    
+          2px 2px 1px #A73121,
+          3px 3px 1px #A73121,
+          4px 4px 1px #A73121,
+          5px 5px 1px #A73121,
+          6px 6px 1px #A73121,
+          7px 7px 1px #A73121,
+          8px 8px 1px #A73121,
+          25px 25px 8px rgba(0,0,0, 0.2);
+}
+
+.not-found .page{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #A73121;
+}

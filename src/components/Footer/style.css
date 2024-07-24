@@ -1,0 +1,44 @@
+
+footer{
+    background-color: #ececec;
+}
+
+footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.redes-sociales{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+.rojo{
+    color: red;
+}
+.verde{
+    color: green;
+}
+.azul{
+    color: blue;
+}
+
+.autor p{
+    font-size: 1,5rem;
+    font-weight:lighter;
+}
+
+@media (max-width:550px){
+    footer .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .autor p{
+        font-size: 0.2rem;
+        text-align: center;
+        
+    }
+}

@@ -1,0 +1,25 @@
+.tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    padding: 1rem ;
+    width: 95%;
+}
+thead tr{
+    background-color: rgb(204, 204, 204);
+}
+
+thead tr td{
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+tbody tr,td{
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(165, 163, 163);
+}
